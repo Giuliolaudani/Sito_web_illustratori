@@ -1,0 +1,158 @@
+body {
+    
+    margin: 0;
+    background-color:white;
+    font-family: 'Inter', sans-serif;
+}
+
+.homescreen img {
+    max-width: 80%;
+    height: auto;
+}
+
+main  {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0px;  
+}
+
+header a {
+    text-decoration: none;
+    color: #222;
+}
+
+header a:hover {
+    color: rgb(192, 60, 60);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+header h1 {
+
+    margin: 0;
+    font-size: 25px;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.homescreen{
+    text-align: center;
+    max-width: auto;
+    font-size: 15px;
+    padding-bottom: 50px;
+    border-bottom:0.5px solid rgba(0,0,0,1);
+}
+.artisti{
+
+    padding: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    row-gap: 25px;
+    column-gap: 30px;
+    margin: 0 auto;
+
+    
+}
+
+div.artista h2{
+
+    padding: 0 20px 20px 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+div.artista img{
+
+    object-fit: cover;
+    height: 300px;
+    width: 90%;
+    
+}
+
+#camilo{
+
+    box-shadow: 15px 35px 0px 15px rgba(163, 163, 163, 0.63);
+    border-radius: 15px;
+}
+
+#lahan{
+
+    box-shadow: 15px 35px 0px 15px #c05d00a1;
+    border-radius: 15px;
+}
+
+#freier{
+
+    box-shadow: 15px 35px 0px 15px rgba(240, 129, 129, 0.719);
+    border-radius: 15px;
+}
+
+#herrera{
+
+    box-shadow: 15px 35px 0px 15px rgba(255, 125, 19, 0.671);
+    border-radius: 15px;
+}
+
+#fritz{
+
+    box-shadow: 15px 35px 0px 15px rgba(53, 202, 170, 0.856);
+    border-radius: 15px;
+}
+
+#boca{
+
+    box-shadow: 15px 35px 0px 15px rgba(197, 31, 31, 0.815);
+    border-radius: 15px;
+}
+
+footer {
+
+    border-top:1px solid rgba(0, 0, 0);
+    border-radius: 100px;
+    padding: 0;
+    bottom: 2em;
+    color: #FFF;
+    width: 100%;
+    height: 170px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #222;
+}
+
+footer a:hover {
+    color: rgb(192, 60, 60);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h1 {
+
+    margin: 0;
+    font-size: 17px;
+}
+
+footer nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
